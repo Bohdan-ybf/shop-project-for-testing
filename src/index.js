@@ -1,11 +1,23 @@
-/* eslint-disable react/prop-types */
+import PropTypes from 'prop-types'
 import React from 'react'
 import ReactDom from 'react-dom'
 
-const Title = (props) => {
-    return <h1>Hello {props.text}</h1>
+// Реакт КОМПОНЕНТ
+
+const Title = ({ text, id }) => {
+    return (
+        <h1>
+            Hello {text}, {id}
+        </h1>
+    )
 }
 
+Title.propTypes = {
+    text: PropTypes.string,
+    id: PropTypes.number,
+}
+
+// Реакт ФРАГМЕНТ
 const List = () => {
     return (
         <ul>
@@ -17,11 +29,11 @@ const List = () => {
 }
 
 const el = (
-    <div>
-        <Title text="Jack" />
+    <>
+        <Title text="Jack" id={1} />
         <Title text="John" />
         <List />
-    </div>
+    </>
 )
 
 ReactDom.render(el, document.getElementById('root'))
