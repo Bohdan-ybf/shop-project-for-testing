@@ -14,7 +14,11 @@ const Title = ({ text, id }) => {
 
 Title.propTypes = {
     text: PropTypes.string,
-    id: PropTypes.number,
+    id: PropTypes.number.isRequired,
+}
+
+Title.defaultProps = {
+    text: 'World',
 }
 
 // Реакт ФРАГМЕНТ
@@ -31,7 +35,7 @@ const List = () => {
 const el = (
     <>
         <Title text="Jack" id={1} />
-        <Title text="John" />
+        <Title id={2} />
         <List />
     </>
 )
