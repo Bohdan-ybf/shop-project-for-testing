@@ -1,11 +1,12 @@
 import React from 'react'
-import Button from '@mui/material/Button'
+import CssBaseline from '@mui/material/CssBaseline'
+import Header from './Header/Header'
 
 const App = () => {
     return (
         <>
-            <h1>Hello App.js</h1>
-            <Button variant="contained">Send</Button>
+            <CssBaseline />
+            <Header />
         </>
     )
 }
