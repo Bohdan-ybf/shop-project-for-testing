@@ -1,0 +1,23 @@
+.product-img {
+    cursor: pointer;
+    text-align: center;
+}
+
+.product-img img {
+    width: auto;
+    height: 345px;
+}
+
+.product-price {
+    font-size: 28px;
+}
+
+.product-quantity {
+    display: flex;
+
+}
+
+.product-quantity input {
+    text-align: center;
+
+}

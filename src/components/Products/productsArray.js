@@ -6,6 +6,7 @@ const productsArray = [
         type: 'phone',
         color: 'red',
         price: 500,
+        image: '/images/iphone11-black.jpg',
     },
     {
         id: 2,
@@ -14,6 +15,7 @@ const productsArray = [
         type: 'phone',
         color: 'gray',
         price: 600,
+        image: '/images/iphone12-mint.jpg',
     },
     {
         id: 3,
@@ -22,6 +24,7 @@ const productsArray = [
         type: 'phone',
         color: 'black',
         price: 300,
+        image: '/images/iphone13-blue.jpg',
     },
     {
         id: 4,
@@ -30,6 +33,7 @@ const productsArray = [
         type: 'phone',
         color: 'white',
         price: 250,
+        image: '/images/iphone13-pink.jpg',
     },
     {
         id: 5,
@@ -38,6 +42,7 @@ const productsArray = [
         type: 'phone',
         color: 'space gray',
         price: 180,
+        image: '/images/iphone13-red.jpg',
     },
     {
         id: 6,
@@ -46,6 +51,7 @@ const productsArray = [
         type: 'phone',
         color: 'gray',
         price: 100,
+        image: '/images/iphone13pro-gold.jpg',
     },
 ]
 
