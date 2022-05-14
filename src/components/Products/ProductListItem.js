@@ -25,7 +25,7 @@ ProductsListItem.propTypes = {
     name: PropTypes.string.isRequired,
     description: PropTypes.string,
     type: PropTypes.string.isRequired,
-    color: PropTypes.isRequired,
+    color: PropTypes.string.isRequired,
     price: PropTypes.number,
 }
 export default ProductsListItem
